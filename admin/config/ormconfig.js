@@ -7,10 +7,7 @@ var dataSource = new TypeORM.DataSource({
     type: 'mysql',
     url: process.env.DATABASE_URI,
     host: 'localhost',
-    port: 3306,
-    username: 'root',
-    password: 'Sridhar4444!',
-    database: 'node_microservices_admin',
+    // port username password database
     entities: [product_1.Product], // Add your entities here
     synchronize: true,
 });
