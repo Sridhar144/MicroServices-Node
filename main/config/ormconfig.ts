@@ -4,7 +4,7 @@ import { Product } from "../src/entity/product";
 // Create TypeORM dataSource
 const dataSource = new TypeORM.DataSource({
   type: 'mongodb',
-  // url: "mongodb://localhost:27017/",
+  // url input of mongodb,
 
     host: '127.0.0.1',
     database: 'node_microservices_main',
