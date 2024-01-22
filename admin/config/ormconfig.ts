@@ -7,9 +7,9 @@ const dataSource = new TypeORM.DataSource({
   url: process.env.DATABASE_URI,
 
     host: 'localhost',
-    port: 3306,
-    username: 'root',
-    password: 'Sridhar4444!',
+    // port,
+    // username',
+    // password',
     database: 'node_microservices_admin',
     entities: [Product], // Add your entities here
     synchronize: true,
